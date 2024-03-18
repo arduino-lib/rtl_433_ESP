@@ -62,19 +62,4 @@ void loop()
   ELECHOUSE_cc1101.SetRx();
   digitalWrite(LED_BUILTIN, LOW);
   delay(1000); // 15 seconds
-  /*   if (Serial.available())
-  {
-    int len = Serial.readBytesUntil('\n', buffer, n);
-    buffer[len] = '\0';
-    Serial.println((char *)buffer);
-    ELECHOUSE_cc1101.SendData(buffer, len);
-
-    Serial.print("Buffer: ");
-    for (int i = 0; i < len; i++)
-    {
-      Serial.println(buffer[i]);
-    }
-    Serial.print("len: ");
-    Serial.println(len);
-  } */
 }
