@@ -49,12 +49,6 @@ void loop()
 {
   ELECHOUSE_cc1101.SetTx();
   digitalWrite(LED_BUILTIN, HIGH);
-  //  ELECHOUSE_cc1101.SendData(buffer, len, 10);
-  //  ELECHOUSE_cc1101.SendData(buffer, len, 10);
-  //  ELECHOUSE_cc1101.SendData(buffer, len, 10);
-  //  ELECHOUSE_cc1101.SendData(buffer, len, 10);
-  //  ELECHOUSE_cc1101.SendData(buffer, len, 10);
-  // ELECHOUSE_cc1101.SendData(buffer, len, 10);
   ELECHOUSE_cc1101.SendData(buffer, len, 100);
   Serial.print("Buffer: ");
   for (int i = 0; i < len; i++)
