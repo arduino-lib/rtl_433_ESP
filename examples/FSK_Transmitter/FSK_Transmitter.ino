@@ -33,6 +33,9 @@ SS: Sum of the preceding 13 bytes % 256
 #include <Arduino.h>
 #include "ELECHOUSE_CC1101_SRC_DRV.h"
 
+#define CC1101_GDO0 2
+#define CC1101_GDO2 4
+
 int gdo0;
 
 const int n = 17;
