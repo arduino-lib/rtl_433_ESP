@@ -44,7 +44,6 @@ void setup()
 
 #ifdef ESP32
   gdo0 = CC1101_GDO0; // for esp32! GDO0 on GPIO pin 2.
-#define ONBOARD_LED 2
 #elif ESP8266
   gdo0 = 5; // for esp8266! GDO0 on pin 5 = D1.
 #else
@@ -53,8 +52,8 @@ void setup()
 
   Serial.begin(921600);
 
-  pinMode(ONBOARD_LED, OUTPUT);
-  digitalWrite(ONBOARD_LED, LOW);
+  pinMode(LED_BUILTIN, OUTPUT);
+  digitalWrite(LED_BUILTIN, LOW);
 
   if (ELECHOUSE_cc1101.getCC1101())
   { // Check the CC1101 Spi connection.
@@ -99,7 +98,7 @@ void setup()
 void loop()
 {
   ELECHOUSE_cc1101.SetTx();
-  digitalWrite(ONBOARD_LED, HIGH);
+  digitalWrite(LED_BUILTIN, HIGH);
   //  ELECHOUSE_cc1101.SendData(buffer, len, 10);
   //  ELECHOUSE_cc1101.SendData(buffer, len, 10);
   //  ELECHOUSE_cc1101.SendData(buffer, len, 10);
@@ -117,7 +116,7 @@ void loop()
   Serial.print("len: ");
   Serial.println(len);
   ELECHOUSE_cc1101.SetRx();
-  digitalWrite(ONBOARD_LED, LOW);
+  digitalWrite(LED_BUILTIN, LOW);
   delay(1000); // 15 seconds
   /*   if (Serial.available())
   {
