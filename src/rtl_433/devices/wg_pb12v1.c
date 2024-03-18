@@ -46,7 +46,7 @@ At the moment it this device cannot distinguish between a Fine Offset
 device, see fineoffset.c.
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int wg_pb12v1_decode(r_device *decoder, bitbuffer_t *bitbuffer)
 {

@@ -10,7 +10,7 @@
     (at your option) any later version.
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 /// Documentation for Oregon Scientific protocols can be found here:
 /// http://wmrx00.sourceforge.net/Arduino/OregonScientific-RF-Protocols.pdf

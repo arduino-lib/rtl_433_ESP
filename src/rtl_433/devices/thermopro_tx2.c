@@ -36,7 +36,7 @@ The data is grouped in 9 nibbles
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int thermopro_tx2_decode(r_device *decoder, bitbuffer_t *bitbuffer)
 {

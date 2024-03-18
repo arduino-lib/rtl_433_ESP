@@ -50,7 +50,7 @@ $ rtl_433 -f 917M -X 'name=WS5029,modulation=FSK_PCM,short=100,long=100,preamble
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int holman_ws5029pcm_decode(r_device *decoder, bitbuffer_t *bitbuffer)
 {

@@ -9,7 +9,7 @@
     (at your option) any later version.
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 /** @fn static int badger_orion_decode(r_device *decoder, bitbuffer_t *bitbuffer)
 Badger ORION water meter.

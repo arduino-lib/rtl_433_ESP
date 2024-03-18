@@ -29,18 +29,18 @@
 #include "rtl_433_ESP.h"
 
 extern "C" {
-#include "bitbuffer.h"
-#include "fatal.h"
-#include "list.h"
-#include "pulse_analyzer.h"
-#include "pulse_detect.h"
-#include "r_api.h"
-#include "r_private.h"
-#include "rtl_433.h"
-#include "rtl_433_devices.h"
+#include "rtl_433/bitbuffer.h"
+#include "rtl_433/fatal.h"
+#include "rtl_433/list.h"
+#include "rtl_433/pulse_analyzer.h"
+#include "rtl_433/pulse_detect.h"
+#include "rtl_433/r_api.h"
+#include "rtl_433/r_private.h"
+#include "rtl_433/rtl_433.h"
+#include "rtl_433/rtl_433_devices.h"
 }
 
-#include "log.h"
+#include "rtl_433/log.h"
 #include "tools/aprintf.h"
 
 /*----------------------------- functions -----------------------------*/

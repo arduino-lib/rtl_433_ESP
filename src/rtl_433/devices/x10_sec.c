@@ -55,7 +55,7 @@ Based on code provided by Willi 'wherzig' in issue #30 (2014-04-21)
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int x10_sec_callback(r_device *decoder, bitbuffer_t *bitbuffer)
 {

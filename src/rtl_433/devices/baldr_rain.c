@@ -10,7 +10,7 @@
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 /** @fn int baldr_rain_decode(r_device *decoder, bitbuffer_t *bitbuffer)
 Baldr / RainPoint Rain Gauge protocol.

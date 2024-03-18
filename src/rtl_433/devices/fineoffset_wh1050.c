@@ -53,7 +53,7 @@ Message layout and example:
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int fineoffset_wh1050_callback(r_device *decoder, bitbuffer_t *bitbuffer)
 {

@@ -16,7 +16,7 @@ Previous work decoding this device:
 - http://www.deepdarc.com/2010/11/27/hacking-christmas-lights/
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 // Helper to access single bit (copied from bitbuffer.c)
 static inline int bit(const uint8_t *bytes, unsigned bit)

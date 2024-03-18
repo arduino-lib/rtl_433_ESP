@@ -44,7 +44,7 @@ Sample Data:
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int vauno_en8822c_decode(r_device *decoder, bitbuffer_t *bitbuffer)
 {

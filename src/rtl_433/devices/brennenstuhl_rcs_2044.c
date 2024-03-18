@@ -19,7 +19,7 @@ The protocol is also implemented for raspi controlled transmitter on 433.92 MHz:
 https://github.com/xkonni/raspberry-remote
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int brennenstuhl_rcs_2044_process_row(r_device *decoder, bitbuffer_t *bitbuffer, int row)
 {

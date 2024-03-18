@@ -44,7 +44,7 @@ Protocol cribbed from:
  * https://forum.arduino.cc/index.php?topic=289554.0
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int visonic_powercode_decode(r_device *decoder, bitbuffer_t *bitbuffer)
 {

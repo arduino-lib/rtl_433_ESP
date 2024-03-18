@@ -46,7 +46,7 @@ Example data:
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int tfa_303196_callback(r_device *decoder, bitbuffer_t *bitbuffer)
 {

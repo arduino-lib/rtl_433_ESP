@@ -55,7 +55,7 @@ Raw data frame (power index):
 - CRC8 poly=0x7 the crc includes a length byte at the beginning
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int archos_tbh_decode(r_device *decoder, bitbuffer_t *bitbuffer)
 {

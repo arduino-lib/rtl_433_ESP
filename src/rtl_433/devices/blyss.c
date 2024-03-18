@@ -19,7 +19,7 @@ long is 1508 us pulse, 488 us gap
 packet gap is 6964 us
 
 */
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int blyss_callback(r_device *decoder, bitbuffer_t *bitbuffer)
 {

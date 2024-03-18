@@ -10,7 +10,7 @@
     (at your option) any later version.
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 /**
 Decoder for TFA Dostmann 14.1504.V2 (30.3254.01)

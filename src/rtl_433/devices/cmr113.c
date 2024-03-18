@@ -9,7 +9,7 @@
     (at your option) any later version.
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 /**
 Clipsal CMR113 cent-a-meter power meter.

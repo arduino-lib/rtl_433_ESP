@@ -47,7 +47,7 @@ To look at unknown data fields run with -vv key.
 Decoder written by Dmitriy Kozyrev, 2020
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 #define INKBIRD_ITH20R_CRC_POLY 0xA001  // reflected 0x8005
 #define INKBIRD_ITH20R_CRC_INIT 0x86F4  // reflected 0x2f61

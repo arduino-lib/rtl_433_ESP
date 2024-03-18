@@ -18,7 +18,7 @@ Each message consists of a preamble, 20 bit id and 4 data bits.
 Note: simple 24 bit fixed ID protocol (x1527 style) and should be handled by the flex decoder.
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int akhan_rke_callback(r_device *decoder, bitbuffer_t *bitbuffer)
 {

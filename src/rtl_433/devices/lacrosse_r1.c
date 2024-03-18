@@ -9,7 +9,7 @@
     (at your option) any later version.
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 /**
 LaCrosse Technology View LTV-R1, LTV-R3 Rainfall Gauge, LTV-W1/W2 Wind Sensor.

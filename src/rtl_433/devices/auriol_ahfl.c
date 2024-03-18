@@ -28,7 +28,7 @@ Lidl Auriol Auriol AHFL 433B2 IPX4
   S - nibble sum, 6 bits
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int auriol_ahfl_decode(r_device *decoder, bitbuffer_t *bitbuffer)
 {

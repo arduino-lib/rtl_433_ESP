@@ -82,7 +82,7 @@ $ rtl_433 -R 0 -X '-X n=DirecTV,m=FSK_PCM,s=600,l=600,g=30000,r=80000'
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 #define ROW_BITLEN_MIN     44  // The shortest possible fragment that can possibly decode successfully
 #define ROW_BITLEN_MAX     99  // But even with a LONG SYNC and large MESSAGE value, won't be larger than this

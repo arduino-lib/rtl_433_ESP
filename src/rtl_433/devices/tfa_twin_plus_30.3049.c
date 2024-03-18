@@ -47,7 +47,7 @@ I have channel number bits(5,6 in reverse order) and low battery bit(9).
 It seems that the 1,2,3,4,7,8 bits changes randomly on every reset/battery change.
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int tfa_twin_plus_303049_callback(r_device *decoder, bitbuffer_t *bitbuffer)
 {

@@ -30,7 +30,7 @@ Temp, not 2's complement but a dedicated sign-bit, i.e. 1 bit sign, 11 bit temp.
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int fineoffset_ws2032_decode(r_device *decoder, bitbuffer_t *bitbuffer)
 {

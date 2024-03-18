@@ -31,7 +31,7 @@ All bytes are sent with least significant bit FIRST (1000 0111 = 0xE1)
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int validate_checksum(r_device *decoder, uint8_t *b, int from, int to, int cs_from, int cs_to)
 {

@@ -26,7 +26,7 @@ All bytes are sent with least significant bit FIRST (1000 0111 = 0xE1)
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static void ss_get_id(char *id, uint8_t *b)
 {

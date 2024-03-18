@@ -31,7 +31,7 @@ Bytes 2 to 9 are inverted Manchester with swapped MSB/LSB:
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int steelmate_callback(r_device *decoder, bitbuffer_t *bitbuffer)
 {

@@ -88,7 +88,7 @@ Addition of TX141W and TX145wsdth:
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 // Define the types of devices this file supports (uses expected bitlen)
 #define LACROSSE_TX141B 32

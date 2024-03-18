@@ -36,7 +36,7 @@ Data format is:
 - X: XOR sum, every 2nd packet without last data byte (T).
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int philips_aj7010_decode(r_device *decoder, bitbuffer_t *bitbuffer)
 {

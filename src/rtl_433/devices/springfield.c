@@ -29,7 +29,7 @@ Data is transmitted in 9 nibbles
 Actually 37 bits for all but last transmission which is 36 bits.
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int springfield_decode(r_device *decoder, bitbuffer_t *bitbuffer)
 {

@@ -35,7 +35,7 @@ Data layout (nibbles):
 - C: 16 bit Checksum, CRC-16 poly 0x1021 init 0xffff
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int tpms_porsche_decode(r_device *decoder, bitbuffer_t *bitbuffer, unsigned row, unsigned bitpos)
 {

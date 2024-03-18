@@ -18,7 +18,7 @@ Data layout (bits):
 S.a. http://www.osengr.org/WxShield/Downloads/OregonScientific-RF-Protocols-II.pdf
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int oregon_scientific_sl109h_callback(r_device *decoder, bitbuffer_t *bitbuffer)
 {

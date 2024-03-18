@@ -16,7 +16,7 @@ HT680 based Remote control (broadly similar to x1527 protocol).
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int ht680_callback(r_device *decoder, bitbuffer_t *bitbuffer)
 {

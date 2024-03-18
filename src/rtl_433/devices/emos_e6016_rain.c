@@ -10,7 +10,7 @@
     (at your option) any later version.
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 /**
 EMOS E6016 rain gauge.

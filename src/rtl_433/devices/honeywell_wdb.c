@@ -40,7 +40,7 @@ Wireless Chimes
     .... .... .... .... .... .... .... .... .... .... .... ...X PARITY (LSB of count of set bits in previous 47 bits)
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int honeywell_wdb_callback(r_device *decoder, bitbuffer_t *bitbuffer)
 {

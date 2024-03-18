@@ -59,7 +59,7 @@ The following Flex decoder will capture the raw data:
 
 #include <time.h>
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 /**
 GEO minim+ current sensor.

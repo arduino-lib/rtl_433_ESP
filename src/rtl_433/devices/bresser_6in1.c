@@ -9,7 +9,7 @@
     (at your option) any later version.
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 /**
 Decoder for Bresser Weather Center 6-in-1.

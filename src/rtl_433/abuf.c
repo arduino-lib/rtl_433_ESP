@@ -14,7 +14,7 @@
 #include <assert.h>
 #include <string.h>
 
-#include "abuf.h"
+#include "rtl_433/abuf.h"
 
 void abuf_init(abuf_t *buf, char *dst, size_t len)
 {

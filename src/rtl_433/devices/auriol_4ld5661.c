@@ -26,7 +26,7 @@ Data layout:
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int auriol_4ld5661_decode(r_device *decoder, bitbuffer_t *bitbuffer)
 {

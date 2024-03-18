@@ -111,7 +111,7 @@ After the full 7 messages, one regular message is sent after 30s.
 Afterwards, messages are sent every 45s.
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 #define TFA_DROP_BITLEN 66
 #define TFA_DROP_STARTBYTE 0x3 /* Inverted already */

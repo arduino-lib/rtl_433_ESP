@@ -17,7 +17,7 @@ There is another type of remotes that have an ID prefix of 0x56 and slightly sho
 
  */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int intertechno_callback(r_device *decoder, bitbuffer_t *bitbuffer)
 {

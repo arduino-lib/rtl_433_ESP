@@ -33,7 +33,7 @@ Payload:
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int maverick_xr30_callback(r_device *decoder, bitbuffer_t *bitbuffer)
 {

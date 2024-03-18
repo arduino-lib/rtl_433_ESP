@@ -9,7 +9,7 @@
     (at your option) any later version.
  */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 /**
 WEC-2103 temperature/humidity sensor.

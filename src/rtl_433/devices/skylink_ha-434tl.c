@@ -70,7 +70,7 @@
  * the Free Software Foundation; either version 2 of the License, or
  * (at your option) any later version.
  */
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int skylink_motion_callback(r_device* decoder, bitbuffer_t* bitbuffer) {
   data_t* data;

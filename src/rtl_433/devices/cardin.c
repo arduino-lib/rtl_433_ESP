@@ -21,7 +21,7 @@ May be useful for other Cardin product too
 - "00L?" = off-off  Left button used or right button does the same as the left
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int cardin_decode(r_device *decoder, bitbuffer_t *bitbuffer)
 {

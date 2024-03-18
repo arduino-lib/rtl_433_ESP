@@ -38,7 +38,7 @@ further information can be found here: https://forums.adafruit.com/viewtopic.php
 note that the mentioned quaternary conversion is actually manchester code.
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int maverick_et73x_callback(r_device *decoder, bitbuffer_t *bitbuffer)
 {

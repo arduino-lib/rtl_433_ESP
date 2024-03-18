@@ -16,7 +16,7 @@ Identifies button event, but does not attempt to decrypt rolling code...
 Note that this is actually Manchester coded and should be changed.
 
 */
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static char const *const command_code[] = {"boot", "unlock" , "lock",};
 

@@ -66,7 +66,7 @@ Battery voltages:
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static uint8_t chk_rollbyte(uint8_t const message[], unsigned bytes, uint16_t gen)
 {

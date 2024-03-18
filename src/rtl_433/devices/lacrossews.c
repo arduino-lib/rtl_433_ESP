@@ -33,7 +33,7 @@ Packet Format is 53 bits/ 13 nibbles:
 | 48-51 | 12 - Check Sum = Nibble sum of nibbles 0-11
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 #define LACROSSE_WS_BITLEN 52
 

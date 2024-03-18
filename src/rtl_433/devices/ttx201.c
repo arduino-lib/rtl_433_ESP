@@ -70,7 +70,7 @@ Data decoded:
     8  35    35  194  0x0  0  0  7   264  0x14
  */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 #define MSG_PREAMBLE_BITS    17
 #define MSG_PACKET_MIN_BITS  50

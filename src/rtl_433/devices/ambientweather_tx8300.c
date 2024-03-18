@@ -44,7 +44,7 @@ Payload format (32 bits):
 The Checksum seems to covers the 4 data bytes and is something like Fletcher-8.
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static uint8_t tx8300_chk(uint8_t *b)
 {

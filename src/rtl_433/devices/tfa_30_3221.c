@@ -31,7 +31,7 @@ S.a. https://github.com/RFD-FHEM/RFFHEM/blob/master/FHEM/14_SD_WS.pm
 The sensor sends 3 repetitions at intervals of about 60 seconds.
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int tfa_303221_callback(r_device *decoder, bitbuffer_t *bitbuffer)
 {

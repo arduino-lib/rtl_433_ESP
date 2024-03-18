@@ -53,7 +53,7 @@ every 60 seconds 3 packets.
 - o: parity of all odd bits
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int wt450_callback(r_device *decoder, bitbuffer_t *bitbuffer)
 {

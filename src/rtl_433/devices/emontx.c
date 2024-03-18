@@ -10,7 +10,7 @@
     (at your option) any later version.
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 // We don't really *use* this because there's no endianness support
 // for just using le16_to_cpu(pkt.ct1) etc. A task for another day...

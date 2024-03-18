@@ -46,7 +46,7 @@ Every message is repeated about 5-15 times.
 Packet gap is 10 ms.
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int proove_callback(r_device *decoder, bitbuffer_t *bitbuffer)
 {

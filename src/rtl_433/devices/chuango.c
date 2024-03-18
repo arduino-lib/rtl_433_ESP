@@ -28,7 +28,7 @@ Note: simple 24 bit fixed ID protocol (x1527 style) and should be handled by the
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int chuango_callback(r_device *decoder, bitbuffer_t *bitbuffer)
 {

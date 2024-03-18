@@ -68,7 +68,7 @@ not fit into 8 bits (that is for speeds above 93 kph on my tires).
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int tpms_renault_0435r_decode(r_device *decoder, bitbuffer_t *bitbuffer, unsigned row, unsigned bitpos)
 {

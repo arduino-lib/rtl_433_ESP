@@ -65,7 +65,7 @@ Flex decoder:
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 #define TPMS_TYREGUARD400_MESSAGE_BITLEN     88
 

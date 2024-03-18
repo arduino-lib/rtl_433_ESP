@@ -9,9 +9,9 @@
     (at your option) any later version.
 */
 
-#include "decoder.h"
-#include "optparse.h"
-#include "fatal.h"
+#include "rtl_433/decoder.h"
+#include "rtl_433/optparse.h"
+#include "rtl_433/fatal.h"
 #include <stdlib.h>
 
 static inline int bit(const uint8_t *bytes, unsigned bit)

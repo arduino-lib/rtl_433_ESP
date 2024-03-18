@@ -49,7 +49,7 @@ e.g.:
     0011 1010 = humidity=0x3a=58%; 8 bit
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int auriol_afw2a1_decode(r_device *decoder, bitbuffer_t *bitbuffer)
 {

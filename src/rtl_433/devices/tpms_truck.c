@@ -47,7 +47,7 @@ Example data:
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int tpms_truck_decode(r_device *decoder, bitbuffer_t *bitbuffer, unsigned row, unsigned bitpos)
 {

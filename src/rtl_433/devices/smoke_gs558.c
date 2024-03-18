@@ -45,7 +45,7 @@ Also you always need to learn from the same primary.
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int smoke_gs558_callback(r_device *decoder, bitbuffer_t *bitbuffer)
 {

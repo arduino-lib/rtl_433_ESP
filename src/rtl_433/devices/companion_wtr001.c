@@ -41,7 +41,7 @@ Temperature in Celsius = (bin2dec(bits 12,7,6,11,10,9,8) + ((bin2dec(bits 4,3,2,
 Published range of device is -29.9C to 69.9C
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 #define MYDEVICE_BITLEN      14
 #define MYDEVICE_MINREPEATS  3

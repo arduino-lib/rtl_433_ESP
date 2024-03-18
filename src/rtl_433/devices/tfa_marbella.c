@@ -38,7 +38,7 @@ L - lsfr, byte reflected reverse galois with 0x31 key and generator
     7 bytes starting from the serial number
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int tfa_marbella_callback(r_device *decoder, bitbuffer_t *bitbuffer)
 {

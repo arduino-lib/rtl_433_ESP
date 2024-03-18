@@ -91,7 +91,7 @@ and there is no 4.7 Kohm end of line resistor in place on the external
 circuit
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 #define INTERLOGIX_MSG_BIT_LEN 46
 

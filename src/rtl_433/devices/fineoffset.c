@@ -11,8 +11,8 @@
     (at your option) any later version.
 */
 
-#include "decoder.h"
-#include "fatal.h"
+#include "rtl_433/decoder.h"
+#include "rtl_433/fatal.h"
 #include <stdlib.h>
 
 r_device const fineoffset_WH2;

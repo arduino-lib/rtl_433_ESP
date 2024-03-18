@@ -45,7 +45,7 @@ Payload looks like this:
 (See below for more information about the signal timing.)
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int infactory_crc_check(uint8_t *b)
 {

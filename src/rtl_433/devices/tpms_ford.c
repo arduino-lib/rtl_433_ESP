@@ -51,7 +51,7 @@ Packet nibbles:
 - C = Checksum, SUM bytes 0 to 6 = byte 7
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int tpms_ford_decode(r_device *decoder, bitbuffer_t *bitbuffer, unsigned row, unsigned bitpos)
 {

@@ -64,7 +64,7 @@ These readings have not been tested.
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 #define BIT(pos)               (1 << (pos))
 #define CHECK_BIT(y, pos)      ((0u == ((y) & (BIT(pos)))) ? 0u : 1u)

@@ -9,7 +9,7 @@
     (at your option) any later version.
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static uint16_t AD_POP(uint8_t *bb, uint8_t bits, uint8_t bit)
 {

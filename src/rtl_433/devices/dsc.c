@@ -100,7 +100,7 @@ Notes:
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 #define DSC_CT_MSGLEN        5
 

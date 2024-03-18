@@ -40,7 +40,7 @@ The second pack of 16 bits is interwoven:
     buf[3] & 0x6f - unknown; for my remotes (buf[3] & 0x6f) == 0x01 always
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int markisol_decode(r_device *decoder, bitbuffer_t *bitbuffer)
 {

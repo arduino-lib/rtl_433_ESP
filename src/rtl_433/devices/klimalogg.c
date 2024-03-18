@@ -39,7 +39,7 @@ play with the -l option (5000-15000 range) or a high sample rate.
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int klimalogg_decode(r_device *decoder, bitbuffer_t *bitbuffer)
 {

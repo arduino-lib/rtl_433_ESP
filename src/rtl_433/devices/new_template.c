@@ -53,7 +53,7 @@ Data layout:
 - C: 8 bit Checksum, CRC-8 truncated poly 0x07 init 0x00
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 /*
  * Hypothetical template device

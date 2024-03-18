@@ -73,7 +73,7 @@ Format for Winddirection & Windgust:
 - C: 4 bit Checksum
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 // return 1 if the checksum passes and 0 if it fails
 static int alecto_checksum(uint8_t *b)

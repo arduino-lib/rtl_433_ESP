@@ -25,7 +25,7 @@ F - ones
 
 
 */
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 #define SYNC_PATTERN_START_OFF 72
 

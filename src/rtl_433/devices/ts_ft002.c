@@ -34,7 +34,7 @@ Data layout:
 | 16,17    | XOR checksum (include the preamble)
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int ts_ft002_decoder(r_device *decoder, bitbuffer_t *bitbuffer)
 {

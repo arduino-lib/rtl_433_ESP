@@ -79,7 +79,7 @@ Between -17C and 0C, 'n' is 60.  Below -17C, 'n' is 360.
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int lacrosse_breezepro_decode(r_device *decoder, bitbuffer_t *bitbuffer)
 {

@@ -75,7 +75,7 @@ where a special humidity flag value of 125 indicates the second channel instead 
 There's no way to distinguish between the TX35 and TX25U models
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 #define LACROSSE_TX29_NOHUMIDSENSOR  0x6a // Sensor do not support humidity
 #define LACROSSE_TX25_PROBE_FLAG     0x7d // Humidity flag to indicate probe temperature channel

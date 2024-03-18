@@ -34,7 +34,7 @@ The data is grouped in 9 nibbles:
 The sensors can be bought at Clas Ohlsen (Nexus) and Pearl (infactory/FreeTec).
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 // NOTE: this should really not be here
 int rubicson_crc_check(uint8_t *b);

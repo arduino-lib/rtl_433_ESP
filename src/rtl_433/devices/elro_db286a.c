@@ -22,7 +22,7 @@ packet gap is 7016 us
 Example code: 37f62a6c80
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int elro_db286a_callback(r_device *decoder, bitbuffer_t *bitbuffer)
 {

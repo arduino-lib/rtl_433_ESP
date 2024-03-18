@@ -37,7 +37,7 @@ With fresh batteries and button pressed:
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int rftech_callback(r_device *decoder, bitbuffer_t *bitbuffer)
 {

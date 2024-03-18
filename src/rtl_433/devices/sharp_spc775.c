@@ -31,7 +31,7 @@ generic parser version:
 rtl_433 -f 917.2M -s 250k -R 0 -X n=sharp,m=FSK_PWM,s=225,l=425,y=4000,g=2900,r=150000,invert,bits=48,preamble={8}a5
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int sharp_spc775_decode(r_device *decoder, bitbuffer_t *bitbuffer)
 {

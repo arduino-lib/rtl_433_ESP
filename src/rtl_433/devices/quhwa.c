@@ -16,7 +16,7 @@ QH-C-CE-3V (which should be compatible with QH-832AC),
 also sold as "1 by One" wireless doorbell
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int quhwa_callback(r_device *decoder, bitbuffer_t *bitbuffer)
 {

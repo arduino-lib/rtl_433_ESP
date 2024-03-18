@@ -38,7 +38,7 @@ Packet nibbles:
 - C = CRC-8 with poly 0x07 init 0xaa, including the first byte (UU), unlike in some other similar protocols
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int tpms_hyundai_vdo_decode(r_device *decoder, bitbuffer_t *bitbuffer, unsigned row, unsigned bitpos)
 {

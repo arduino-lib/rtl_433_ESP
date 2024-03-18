@@ -20,7 +20,7 @@ beginning with a 0 will have data in this gap.
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 #define OSV1_BITS   32
 

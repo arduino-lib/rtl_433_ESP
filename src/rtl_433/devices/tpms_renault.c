@@ -24,7 +24,7 @@ Packet nibbles:
 - C = Checksum, CRC-8 truncated poly 0x07 init 0x00
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int tpms_renault_decode(r_device *decoder, bitbuffer_t *bitbuffer, unsigned row, unsigned bitpos)
 {

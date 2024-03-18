@@ -41,7 +41,7 @@ Data layout:
 The sensor sends messages at intervals of about 57-58 seconds.
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int eurochron_efth800_decode(r_device *decoder, bitbuffer_t *bitbuffer)
 {

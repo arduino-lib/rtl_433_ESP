@@ -39,7 +39,7 @@ users to investigate it.
 NOTE: You may need to use the "-s 1000000" option of rtl_433 in order to get a clear signal.
  */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int tpms_kia_decode(r_device *decoder, bitbuffer_t *bitbuffer, unsigned row, unsigned bitpos)
 {

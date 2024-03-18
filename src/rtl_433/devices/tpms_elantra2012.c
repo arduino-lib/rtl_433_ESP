@@ -47,7 +47,7 @@ Preamble is 111 0001 0101 0101 (0x7155).
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int tpms_elantra2012_decode(r_device *decoder, bitbuffer_t *bitbuffer, unsigned row, unsigned bitpos)
 {

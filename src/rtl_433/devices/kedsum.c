@@ -34,7 +34,7 @@ Frame structure:
 - X: CRC-4 poly 0x3 init 0x0 xor last 4 bits
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int kedsum_callback(r_device *decoder, bitbuffer_t *bitbuffer)
 {

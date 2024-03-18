@@ -27,7 +27,7 @@ WT0124 Pool Thermometer decoder.
 - 1 = constant 1
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int wt1024_callback(r_device *decoder, bitbuffer_t *bitbuffer)
 {

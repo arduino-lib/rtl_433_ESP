@@ -27,7 +27,7 @@ Data layout (nibbles):
 - The preamble is 0xaa..aa9 (or 0x55..556 depending on polarity)
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int tpms_jansite_decode(r_device *decoder, bitbuffer_t *bitbuffer, unsigned row, unsigned bitpos)
 {

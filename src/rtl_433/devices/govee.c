@@ -127,7 +127,7 @@ RevSum input for parity (first 5 bytes, and the parity extracted from the last b
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 #define GOVEE_WATER         5054
 #define GOVEE_CONTACT       5023

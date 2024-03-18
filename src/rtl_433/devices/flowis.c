@@ -44,7 +44,7 @@ Type 2 messages usually contain long runs of zeros that might cause bitstream de
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int flowis_decode(r_device *decoder, bitbuffer_t *bitbuffer)
 {

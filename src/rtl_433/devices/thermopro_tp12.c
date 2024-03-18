@@ -41,7 +41,7 @@ Layout appears to be:
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 #define BITS_IN_VALID_ROW 41
 

@@ -47,7 +47,7 @@ Data format:
 - X: CRC
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int rubicson_pool_48942_decode(r_device *decoder, bitbuffer_t *bitbuffer)
 {

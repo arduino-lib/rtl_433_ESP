@@ -40,7 +40,7 @@ The payload data is 7 bytes:
 - Error Detection 2
 
 */
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 /// out needs to be at least (bits / 26, usually 7) bytes long
 static int proflame2_mc(bitbuffer_t *bitbuffer, unsigned row, unsigned start, uint8_t *out)

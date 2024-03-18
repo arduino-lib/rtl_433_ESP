@@ -10,7 +10,7 @@
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 /**
 Revolt NC-5462 Energy Meter.

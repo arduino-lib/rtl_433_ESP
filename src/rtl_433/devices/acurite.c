@@ -27,7 +27,7 @@ Devices decoded:
 - Acurite 1190/1192 leak/water detector
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 #define ACURITE_515_BITLEN        50
 #define ACURITE_TXR_BITLEN        56

@@ -29,7 +29,7 @@ Data format:
 - ?    a single bit (coding artefact)
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int burnhardbbq_decode(r_device *decoder, bitbuffer_t *bitbuffer)
 {

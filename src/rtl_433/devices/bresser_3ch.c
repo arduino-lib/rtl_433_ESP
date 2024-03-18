@@ -34,7 +34,7 @@ The data is grouped in 5 bytes / 10 nibbles
 - humi is 8 bit relative humidity percentage
 - chk is the sum of the four data bytes
 */
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int bresser_3ch_decode(r_device *decoder, bitbuffer_t *bitbuffer)
 {

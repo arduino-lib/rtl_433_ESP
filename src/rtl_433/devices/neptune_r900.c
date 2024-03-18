@@ -9,7 +9,7 @@
     (at your option) any later version.
  */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 /** @fn int neptune_r900_decode(r_device *decoder, bitbuffer_t * bitbuffer)
 Neptune R900 flow meter decoder.

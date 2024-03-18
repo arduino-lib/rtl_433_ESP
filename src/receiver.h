@@ -26,7 +26,7 @@
 #ifndef rtl_433_RECEIVER_H
 #define rtl_433_RECEIVER_H
 
-#include "log.h"
+#include "rtl_433/log.h"
 #include "tools/aprintf.h"
 
 #endif

@@ -83,7 +83,7 @@ Raw flex decoder and BitBench format:
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int fineoffset_wh31l_decode(r_device *decoder, bitbuffer_t *bitbuffer)
 {

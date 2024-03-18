@@ -27,7 +27,7 @@ Packet nibbles:
 - C = Checksum, XOR bytes 1 to 9 = 0
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int tpms_citroen_decode(r_device *decoder, bitbuffer_t *bitbuffer, unsigned row, unsigned bitpos)
 {

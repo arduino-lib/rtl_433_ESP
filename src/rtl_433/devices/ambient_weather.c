@@ -38,7 +38,7 @@ xxxxMMMM IIIIIIII BCCCTTTT TTTTTTTT HHHHHHHH MMMMMMMM
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int ambient_weather_decode(r_device *decoder, bitbuffer_t *bitbuffer, unsigned row, unsigned bitpos)
 {

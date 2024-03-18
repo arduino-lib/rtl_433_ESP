@@ -17,7 +17,7 @@ Packets are 32 bit, 24 bit data and 8 bit XOR checksum.
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int jasco_decode(r_device *decoder, bitbuffer_t *bitbuffer)
 {

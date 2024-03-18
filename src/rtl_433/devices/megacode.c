@@ -37,7 +37,7 @@ Example:
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int megacode_callback(r_device *decoder, bitbuffer_t *bitbuffer)
 {

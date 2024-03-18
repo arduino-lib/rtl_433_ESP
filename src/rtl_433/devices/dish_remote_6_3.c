@@ -25,7 +25,7 @@ B = Button pressed, big-endian
 X = unknown, possibly channel
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 #define MYDEVICE_BITLEN      16
 #define MYDEVICE_MINREPEATS  3

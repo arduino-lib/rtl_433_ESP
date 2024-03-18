@@ -55,7 +55,7 @@ Random Code / Device ID: (Nibble 1)
 - changes on every battery change
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int s3318p_callback(r_device *decoder, bitbuffer_t *bitbuffer)
 {

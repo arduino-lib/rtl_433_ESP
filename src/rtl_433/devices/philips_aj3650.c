@@ -42,7 +42,7 @@ but it has the exact same pulse/gap width as a short pulse, and
 gets processed as data.
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 #define PHILIPS_BITLEN       112
 #define PHILIPS_PACKETLEN    4

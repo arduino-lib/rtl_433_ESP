@@ -41,7 +41,7 @@ Rain:
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 #define HIDEKI_MAX_BYTES_PER_ROW 14
 

@@ -72,7 +72,7 @@ detail. Many thanks to kodarn!
 */
 
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 #define IKEA_SPARSNAS_MESSAGE_BITLEN 160    // 20 bytes incl 8 bit length, 8 bit address, 128 bits data, and 16 bits of CRC. Excluding preamble and sync word
 #define IKEA_SPARSNAS_MESSAGE_BYTELEN    ((IKEA_SPARSNAS_MESSAGE_BITLEN + 7) / 8)
 #define IKEA_SPARSNAS_MESSAGE_BITLEN_MAX 260 // Just for early sanity checks

@@ -23,7 +23,7 @@ The proove decoder will capture the OFF-state but not the ON-state
 since the Nexa uses two different bit lengths for ON and OFF.
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int nexa_callback(r_device *decoder, bitbuffer_t *bitbuffer)
 {

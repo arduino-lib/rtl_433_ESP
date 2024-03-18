@@ -30,7 +30,7 @@ To get raw data:
     ./rtl_433 -f 868.3M -X 'n=Marlec,m=FSK_PCM,s=20,l=20,g=350,r=600,preamble=aad391d391'
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int marlec_solar_decode(r_device *decoder, bitbuffer_t *bitbuffer)
 {

@@ -33,7 +33,7 @@ data is grouped into 9 nibbles
 The sensor can be bought at Kjell&Co. The Infactory pool sensor can be bought at Pearl.
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 // NOTE: this is used in nexus.c and solight_te44.c
 int rubicson_crc_check(uint8_t *b);

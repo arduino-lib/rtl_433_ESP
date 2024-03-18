@@ -29,7 +29,7 @@ The data is grouped in 9 nibbles
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int prologue_callback(r_device *decoder, bitbuffer_t *bitbuffer)
 {

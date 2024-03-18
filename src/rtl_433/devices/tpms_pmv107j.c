@@ -25,7 +25,7 @@ based on work by Werner Johansson.
 - C: CRC over bits 0 - 57, poly 0x13, init 0
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int tpms_pmv107j_decode(r_device *decoder, bitbuffer_t *bitbuffer, unsigned row, unsigned bitpos)
 {

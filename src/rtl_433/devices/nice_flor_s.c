@@ -23,7 +23,7 @@ A packet is made of 52 bits (13 nibbles S0 to S12):
 - S3-S6: 16 bits encrypted rolling code
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int nice_flor_s_decode(r_device *decoder, bitbuffer_t *bitbuffer)
 {

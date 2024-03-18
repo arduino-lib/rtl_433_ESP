@@ -21,7 +21,7 @@ The output changed and the fields are very likely not as intended.
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int fordremote_callback(r_device *decoder, bitbuffer_t *bitbuffer)
 {

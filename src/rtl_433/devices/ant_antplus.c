@@ -75,7 +75,7 @@ https://github.com/sghctoma/antfs-poc-defcon24
 https://reveng.sourceforge.io/ to reverse engineer the CRC algorithm used
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int ant_antplus_decode(r_device *decoder, bitbuffer_t *bitbuffer)
 {

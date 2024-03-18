@@ -12,7 +12,7 @@
 #include <stdio.h>
 #include <stdarg.h>
 #include <string.h>
-#include <logger.h>
+#include "rtl_433/logger.h"
 
 static r_logger_handler logger_handler = NULL;
 static void *logger_handler_userdata   = NULL;

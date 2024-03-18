@@ -75,7 +75,7 @@ Telldus outdoor unit is missing Light and UV sensors, but they may be seen in th
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int telldus_ft0385r_decode(r_device *decoder, bitbuffer_t *bitbuffer)
 {

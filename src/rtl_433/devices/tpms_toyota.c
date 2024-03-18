@@ -26,7 +26,7 @@ The temperature is offset by 40 deg C.
 The pressure seems to be 1/4 PSI offset by -7 PSI (i.e. 28 raw = 0 PSI).
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int tpms_toyota_decode(r_device *decoder, bitbuffer_t *bitbuffer, unsigned row, unsigned bitpos)
 {

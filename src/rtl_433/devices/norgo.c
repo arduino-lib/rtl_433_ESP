@@ -78,7 +78,7 @@ Captured impulse count can be converted to energy usage (kWh) using formula:
 pulse_count/(n_imp_per_kwh)
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static uint16_t checksum_taps[] = {
         0x4880, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000,

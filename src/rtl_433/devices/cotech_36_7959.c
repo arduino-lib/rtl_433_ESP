@@ -48,7 +48,7 @@ Message layout
 */
 
 #include <stdbool.h>
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int cotech_36_7959_decode(r_device *decoder, bitbuffer_t *bitbuffer)
 {

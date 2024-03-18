@@ -27,7 +27,7 @@ There are slight timing differences between the older sensors and new ones like 
 Long: 860-1016 us, short: 304-560 us, older sync: 480 us, newer sync: 340 us,
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int kerui_callback(r_device *decoder, bitbuffer_t *bitbuffer)
 {

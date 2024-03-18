@@ -42,7 +42,7 @@ Notes:
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 #define LACROSSE_TX_BITLEN        44
 #define LACROSSE_NYBBLE_CNT        11

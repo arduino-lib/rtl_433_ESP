@@ -57,7 +57,7 @@ The command is fixed to 0xf, which we use as idication that an actual command is
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int somfy_rts_decode(r_device *decoder, bitbuffer_t *bitbuffer)
 {

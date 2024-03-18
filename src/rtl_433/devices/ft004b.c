@@ -27,7 +27,7 @@ Aligning at [..] (insert 2 bits) we get:
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int ft004b_callback(r_device *decoder, bitbuffer_t *bitbuffer)
 {

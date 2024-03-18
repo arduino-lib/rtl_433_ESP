@@ -47,7 +47,7 @@ Bitbuffer example from rtl_433 -a:
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 #define GEN 0x83
 #define KEY 0xEC

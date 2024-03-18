@@ -30,7 +30,7 @@ Packet payload: 1 sync nibble and 8 bytes data, 17 nibbles:
 - C: CRC8 from nibble 1 to E
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int schraeder_decode(r_device *decoder, bitbuffer_t *bitbuffer)
 {

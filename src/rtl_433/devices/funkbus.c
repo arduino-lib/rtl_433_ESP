@@ -51,7 +51,7 @@ Data layout:
 Some details can be found by searching  "instafunk RX/TX-Modul pdf".
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 #include <limits.h>
 
 #define BIT_MASK(x) \

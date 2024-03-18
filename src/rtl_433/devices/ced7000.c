@@ -28,7 +28,7 @@ Data layout:
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 #define NUM_BITS_PREAMBLE (32)
 #define NUM_BITS_DATA (169)

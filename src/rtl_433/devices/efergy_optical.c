@@ -32,7 +32,7 @@ To get the mode: short-push the physical button on transmitter.
 To set the mode: long-push the physical button on transmitter.
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int efergy_optical_callback(r_device *decoder, bitbuffer_t *bitbuffer)
 {

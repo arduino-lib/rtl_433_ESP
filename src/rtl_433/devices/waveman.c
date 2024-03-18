@@ -23,7 +23,7 @@ short-long (1 0 by the demod) as 1 (F per protocol),
 long-long (0 0 by the demod) not used (1 per protocol).
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int waveman_callback(r_device *decoder, bitbuffer_t *bitbuffer)
 {

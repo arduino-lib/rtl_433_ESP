@@ -34,7 +34,7 @@ Data structure:
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 // NOTE: this should really not be here
 int rubicson_crc_check(uint8_t *b);

@@ -35,7 +35,7 @@ Message bits as far as we can tell:
 Sometimes the receiver samplerate has to be at 250ksps to decode properly.
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int cavius_decode(r_device *decoder, bitbuffer_t *bitbuffer)
 {

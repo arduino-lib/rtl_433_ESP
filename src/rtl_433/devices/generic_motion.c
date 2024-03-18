@@ -28,7 +28,7 @@ with a repeat gap of 4 pulse widths, i.e.:
 - ...
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int generic_motion_callback(r_device *decoder, bitbuffer_t *bitbuffer)
 {

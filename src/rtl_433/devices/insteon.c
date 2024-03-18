@@ -53,7 +53,7 @@ all following bytes are transmitted with a decrementing index count with the fin
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 // 1100111010101010
 static const uint8_t insteon_preamble[] = {0xCE, 0xAA};

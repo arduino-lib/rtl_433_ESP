@@ -10,7 +10,7 @@
     (at your option) any later version.
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 /** @fn int atech_ws308_decode(r_device *decoder, bitbuffer_t *bitbuffer)
 Atech WS-308 "433 tech remote sensor" for Atech wireless weather station.

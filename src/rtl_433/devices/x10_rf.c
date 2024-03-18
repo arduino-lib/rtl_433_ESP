@@ -40,7 +40,7 @@ RMS18, Radio Shack 61-2675-T
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int x10_rf_callback(r_device *decoder, bitbuffer_t *bitbuffer)
 {

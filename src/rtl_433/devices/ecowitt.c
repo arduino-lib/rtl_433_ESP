@@ -24,7 +24,7 @@ Ecowitt Wireless Outdoor Thermometer WH53/WH0280/WH0281A.
 | 47-54 | CRC-8 checksum poly 0x31 init 0x00 skipping first 7 bits
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int ecowitt_decode(r_device *decoder, bitbuffer_t *bitbuffer)
 {

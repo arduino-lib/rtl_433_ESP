@@ -16,7 +16,7 @@ Stub for decoding test data only
 Reference: https://wiki.somakeit.org.uk/wiki/LightwaveRF_RF_Protocol
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 /// Decode a nibble from byte value
 /// Will return -1 if invalid byte is input

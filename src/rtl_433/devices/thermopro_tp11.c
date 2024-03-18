@@ -19,7 +19,7 @@ normal sequence of bit rows:
     [03] {32} db 41 57 c2 : 11011011 01000001 01010111 11000010
 
 */
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int thermopro_tp11_sensor_callback(r_device *decoder, bitbuffer_t *bitbuffer)
 {

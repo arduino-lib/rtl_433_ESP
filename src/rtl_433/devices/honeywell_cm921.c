@@ -14,7 +14,7 @@ Honeywell CM921 Thermostat (subset of Evohome).
 868Mhz FSK, PCM, Start/Stop bits, reversed, Manchester.
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 // #define _DEBUG
 

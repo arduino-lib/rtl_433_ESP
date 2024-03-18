@@ -42,7 +42,7 @@ TYPE Description:
 A Lidl AURIO (from 12/2018) with PCB marking YJ-T12 V02 has two extra bits in front.
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int gt_wt_02_process_row(r_device *decoder, bitbuffer_t *bitbuffer, int row)
 {

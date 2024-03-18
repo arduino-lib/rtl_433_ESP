@@ -30,7 +30,7 @@
 
 #include <functional>
 
-#include "log.h"
+#include "rtl_433/log.h"
 #include "tools/aprintf.h"
 
 // ESP32 doesn't define ICACHE_RAM_ATTR

@@ -38,7 +38,7 @@ A message is ca 131-132 bits including preamble.
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int esic_emt7110_decode(r_device *decoder, bitbuffer_t *bitbuffer)
 {

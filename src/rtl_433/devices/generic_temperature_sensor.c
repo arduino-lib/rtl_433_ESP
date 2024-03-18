@@ -20,7 +20,7 @@ Generic temperature sensor 1.
 - T: 12 bit Temp
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int generic_temperature_sensor_callback(r_device *decoder, bitbuffer_t *bitbuffer)
 {

@@ -14,7 +14,7 @@ The symbol encoding ensures a maximum run (gap) of 4x bit-width.
 Sensible Living uses a speed of 1000, i.e. 1000 us per bit.
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 // Maximum message length (including the headers, byte count and FCS) we are willing to support
 // This is pretty arbitrary

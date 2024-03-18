@@ -17,7 +17,7 @@ start pulse: 1T high, 10.44T low
 - stop pulse: 1T high, 40T low
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int newkaku_callback(r_device *decoder, bitbuffer_t *bitbuffer)
 {

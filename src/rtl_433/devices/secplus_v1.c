@@ -17,8 +17,8 @@ Security+ 1.0  is described in [US patent application US6980655B2](https://paten
 
 */
 
-#include "decoder.h"
-#include "compat_time.h"
+#include "rtl_433/decoder.h"
+#include "rtl_433/compat_time.h"
 
 /**
 Data comes in two bursts/packets, each bursts/packet is then separately passed to secplus_v1_decode_v1_half.

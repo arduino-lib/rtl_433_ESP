@@ -25,7 +25,7 @@ Hyundai WS SENZOR Remote Temperature Sensor.
 - I = sensor ID
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 #define WS_PACKETLEN 24
 #define WS_MINREPEATS 4

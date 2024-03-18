@@ -29,7 +29,7 @@ checksum and parity are not checked by this decoder.
 Command extensions are also not decoded. feel free to improve!
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int fs20_decode(r_device *decoder, bitbuffer_t *bitbuffer)
 {

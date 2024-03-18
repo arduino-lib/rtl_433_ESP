@@ -61,7 +61,7 @@ Sequence# 0,1,3,4,5 & 7
 
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int lacrosse_th_decode(r_device *decoder, bitbuffer_t *bitbuffer)
 {

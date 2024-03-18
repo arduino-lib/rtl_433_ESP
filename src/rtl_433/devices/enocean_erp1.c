@@ -9,7 +9,7 @@
     (at your option) any later version.
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 /** @fn int enocean_erp1_decode(r_device *decoder, bitbuffer_t *bitbuffer)
 EnOcean Radio Protocol 1.

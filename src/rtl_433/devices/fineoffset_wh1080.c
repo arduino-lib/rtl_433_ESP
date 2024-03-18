@@ -109,7 +109,7 @@ so you can see -sometimes- some little difference between module's output and LC
 2016-2017 Nicola Quiriti ('ovrheat' - 'seven')
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int wind_dir_degr[]= {0, 23, 45, 68, 90, 113, 135, 158, 180, 203, 225, 248, 270, 293, 315, 338};
 

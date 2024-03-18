@@ -15,7 +15,7 @@ Implements the Physical layer (RF receiver) and Data Link layer of the
 Wireless M-Bus protocol. Will return a data string (including the CI byte)
 for further processing by an Application layer (outside this program).
 */
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 #define BLOCK1A_SIZE 12     // Size of Block 1, format A
 #define BLOCK1B_SIZE 10     // Size of Block 1, format B

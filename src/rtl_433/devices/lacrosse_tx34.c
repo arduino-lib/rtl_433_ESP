@@ -42,7 +42,7 @@ This decoder decodes generic LaCrosse IT+ frames and filters TX34 ones.
 Could be merged with existing TX29 decoder... or not.
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 #define LACROSSE_TX34_ITMODEL 5
 #define LACROSSE_TX34_PAYLOAD_BITS 40

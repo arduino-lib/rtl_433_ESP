@@ -31,7 +31,7 @@ There are two packets with a 17500 us gap.
 rtl_433 -R 0 -X 'n=hcs200,m=OOK_PWM,s=370,l=772,r=9000,g=1500,t=152'
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 static int hcs200_callback(r_device *decoder, bitbuffer_t *bitbuffer)
 {

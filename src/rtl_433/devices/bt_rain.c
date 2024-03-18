@@ -25,7 +25,7 @@ thus the decoder is disabled by default.
 - nibble[8] is checksum, have not figured it out yet. Last bit is sync? or included in checksum?.
 */
 
-#include "decoder.h"
+#include "rtl_433/decoder.h"
 
 // Actually 37 bits for all but last transmission which is 36 bits
 #define NUM_BITS 36
