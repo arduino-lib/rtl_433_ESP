@@ -3,7 +3,6 @@
 
 */
 
-#include <ArduinoLog.h>
 #include <rtl_433_ESP.h>
 
 #ifndef RF_MODULE_FREQUENCY
@@ -26,16 +25,11 @@ void rtl_433_Callback(char* message) {
 void setup() {
   Serial.begin(921600);
   delay(1000);
-#ifndef LOG_LEVEL
-  LOG_LEVEL_SILENT
-#endif
-  Log.begin(LOG_LEVEL, &Serial);
-  Log.notice(F(" " CR));
-  Log.notice(F("****** setup ******" CR));
+  Serial.println("****** setup ******");
   rf.initReceiver(RF_MODULE_RECEIVER_GPIO, RF_MODULE_FREQUENCY);
   rf.setCallback(rtl_433_Callback, messageBuffer, JSON_MSG_BUFFER);
   rf.enableReceiver();
-  Log.notice(F("****** setup complete ******" CR));
+  Serial.println("****** setup complete ******");
   rf.getModuleStatus();
 }
 
@@ -94,13 +88,13 @@ void loop() {
   if (uptime() > next) {
     next = uptime() + 120; // 60 seconds
     dtostrf(step, 7, 2, stepPrint);
-    Log.notice(F(CR "Finished %s: %s, count: %d" CR), TEST, stepPrint, count);
+    Serial.printf("\nFinished %s: %s, count: %d\n", TEST, stepPrint, count);
     step += STEP;
     if (step > stepMax) {
       step = stepMin;
     }
     dtostrf(step, 7, 2, stepPrint);
-    Log.notice(F("Starting %s with %s" CR), TEST, stepPrint);
+    Serial.printf("Starting %s with %s\n", TEST, stepPrint);
     count = 0;
 
     int16_t state = 0;
@@ -113,7 +107,7 @@ void loop() {
 #  elif defined(setRxBW)
     state = rf.setRxBandwidth(step);
     if ((state) != RADIOLIB_ERR_NONE) {
-      Log.notice(F(CR "Setting  %s: to %s, failed" CR), TEST, stepPrint);
+      Serial.printf("\nSetting  %s: to %s, failed\n", TEST, stepPrint);
       next = uptime() - 1;
     }
 #  endif
