@@ -1,0 +1,24 @@
+rtl_433_ESP	KEYWORD1
+loop	KEYWORD2
+setCallback	KEYWORD2
+setRSSIThreshold	KEYWORD2
+setOOKThreshold	KEYWORD2
+initReceiver	KEYWORD2
+enableReceiver	KEYWORD2
+disableReceiver	KEYWORD2
+calibrateOokFixedThreshold	KEYWORD2
+setDebug	KEYWORD2
+getStatus	KEYWORD2
+getModuleStatus	KEYWORD2
+setFrequencyDeviation	KEYWORD2
+setBitRate	KEYWORD2
+setRxBandwidth	KEYWORD2
+receiveDirect	KEYWORD2
+static bool setOOKModulation	KEYWORD2
+static bool setFSKModulation	KEYWORD2
+interruptHandler	KEYWORD2
+calibrateOokFixedThresholdHandler	KEYWORD2
+resetReceiver	KEYWORD2
+_getRSSI	KEYWORD2
+receivePulseTrain	KEYWORD2
+rtl_433_ReceiverTask	KEYWORD2
