@@ -23,7 +23,7 @@ void rtl_433_Callback(char* message) {
 }
 
 void setup() {
-  Serial.begin(921600);
+  Serial.begin(115200);
   delay(1000);
   Serial.println("****** setup ******");
   rf.initReceiver(RF_MODULE_RECEIVER_GPIO, RF_MODULE_FREQUENCY);

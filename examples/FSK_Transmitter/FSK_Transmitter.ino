@@ -27,7 +27,7 @@ void setup()
   gdo0 = 6; // for Arduino! GDO0 on pin 6.
 #endif
 
-  Serial.begin(921600);
+  Serial.begin(115200);
 
   pinMode(LED_BUILTIN, OUTPUT);
   digitalWrite(LED_BUILTIN, LOW);
