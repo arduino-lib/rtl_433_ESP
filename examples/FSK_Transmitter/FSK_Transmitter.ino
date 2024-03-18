@@ -1,7 +1,8 @@
-
-// These examples are from the Electronics Cookbook by Simon Monk
-//https://github.com/LSatan/SmartRC-CC1101-Driver-Lib
-// mod by Little_S@tan
+/*
+  These examples are from the Electronics Cookbook by Simon Monk
+  https://github.com/LSatan/SmartRC-CC1101-Driver-Lib
+  mod by Little_S@tan
+*/
 
 #include <Arduino.h>
 #include "ELECHOUSE_CC1101_SRC_DRV.h"
