@@ -3,7 +3,6 @@
 
 */
 
-#include <ArduinoJson.h>
 #include <ArduinoLog.h>
 #include <rtl_433_ESP.h>
 
@@ -20,26 +19,8 @@ rtl_433_ESP rf; // use -1 to disable transmitter
 int count = 0;
 
 void rtl_433_Callback(char* message) {
-  DynamicJsonBuffer jsonBuffer2(JSON_MSG_BUFFER);
-  JsonObject& RFrtl_433_ESPdata = jsonBuffer2.parseObject(message);
-  logJson(RFrtl_433_ESPdata);
+  Serial.printf("Received message: %s\n", message);
   count++;
-}
-
-void logJson(JsonObject& jsondata) {
-#if defined(ESP8266) || defined(ESP32) || defined(__AVR_ATmega2560__) || defined(__AVR_ATmega1280__)
-  char JSONmessageBuffer[jsondata.measureLength() + 1];
-#else
-  char JSONmessageBuffer[JSON_MSG_BUFFER];
-#endif
-  jsondata.printTo(JSONmessageBuffer, sizeof(JSONmessageBuffer));
-#if defined(setBitrate) || defined(setFreqDev) || defined(setRxBW)
-  Log.setShowLevel(false);
-  Log.notice(F("."));
-  Log.setShowLevel(true);
-#else
-  Log.notice(F("Received message : %s" CR), JSONmessageBuffer);
-#endif
 }
 
 void setup() {
